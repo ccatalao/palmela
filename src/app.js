@@ -8,7 +8,7 @@ import InstallPrompt from './components/InstallPrompt';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/palmela">
       <div className="app">
         <Navigation />
         <InstallPrompt />
