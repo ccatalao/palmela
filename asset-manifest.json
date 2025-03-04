@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/palmela/static/css/main.41235581.css",
+    "main.js": "/palmela/static/js/main.ae37c2f9.js",
+    "index.html": "/palmela/index.html",
+    "main.41235581.css.map": "/palmela/static/css/main.41235581.css.map",
+    "main.ae37c2f9.js.map": "/palmela/static/js/main.ae37c2f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41235581.css",
+    "static/js/main.ae37c2f9.js"
+  ]
+}
