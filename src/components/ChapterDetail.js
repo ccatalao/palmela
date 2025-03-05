@@ -81,21 +81,31 @@ function ChapterDetail() {
       <div className="content-grid">
         {chapter.content.map(item => (
           <div key={item.id} className="content-card">
-            <div className="content-image">
-              <picture>
-                <source 
-                  srcSet={item.imageUrl.webp}
-                  type="image/webp"
-                />
-                <img 
-                  src={item.imageUrl.fallback}
-                  alt={item.title}
-                  width={item.imageUrl.thumbnail.width}
-                  height={item.imageUrl.thumbnail.height}
-                  loading="lazy"
-                />
-              </picture>
-            </div>
+            <a 
+              href={item.url} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="content-image-link"
+            >
+              <div className="content-image">
+                <picture>
+                  <source 
+                    srcSet={item.imageUrl.webp}
+                    type="image/webp"
+                  />
+                  <img 
+                    src={item.imageUrl.fallback}
+                    alt={item.title}
+                    width={item.imageUrl.thumbnail.width}
+                    height={item.imageUrl.thumbnail.height}
+                    loading="lazy"
+                  />
+                </picture>
+                <div className="image-overlay">
+                  <span>Visitar Website →</span>
+                </div>
+              </div>
+            </a>
             <div className="content-info">
               <h3>{item.title}</h3>
               <p>{item.description}</p>
