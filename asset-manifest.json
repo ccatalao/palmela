@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/palmela/static/css/main.a2cf911b.css",
-    "main.js": "/palmela/static/js/main.0150fcbe.js",
+    "main.js": "/palmela/static/js/main.ddec760f.js",
     "static/media/architecture.webp": "/palmela/static/media/architecture.514db17e0e58f10c9b3d.webp",
     "static/media/urbanism.jpeg": "/palmela/static/media/urbanism.55b69a01d6fb8c3bf7e5.jpeg",
     "static/media/architecture.jpeg": "/palmela/static/media/architecture.8e181bedb939f3efffcf.jpeg",
@@ -14,10 +14,10 @@
     "static/media/articulo.webp": "/palmela/static/media/articulo.9f3dee77ad436b89c9e8.webp",
     "index.html": "/palmela/index.html",
     "main.a2cf911b.css.map": "/palmela/static/css/main.a2cf911b.css.map",
-    "main.0150fcbe.js.map": "/palmela/static/js/main.0150fcbe.js.map"
+    "main.ddec760f.js.map": "/palmela/static/js/main.ddec760f.js.map"
   },
   "entrypoints": [
     "static/css/main.a2cf911b.css",
-    "static/js/main.0150fcbe.js"
+    "static/js/main.ddec760f.js"
   ]
 }
