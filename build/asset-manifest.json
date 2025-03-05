@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/palmela/static/css/main.41235581.css",
-    "main.js": "/palmela/static/js/main.ae37c2f9.js",
+    "main.css": "/palmela/static/css/main.07535e14.css",
+    "main.js": "/palmela/static/js/main.60f107ef.js",
     "index.html": "/palmela/index.html",
-    "main.41235581.css.map": "/palmela/static/css/main.41235581.css.map",
-    "main.ae37c2f9.js.map": "/palmela/static/js/main.ae37c2f9.js.map"
+    "main.07535e14.css.map": "/palmela/static/css/main.07535e14.css.map",
+    "main.60f107ef.js.map": "/palmela/static/js/main.60f107ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.41235581.css",
-    "static/js/main.ae37c2f9.js"
+    "static/css/main.07535e14.css",
+    "static/js/main.60f107ef.js"
   ]
 }

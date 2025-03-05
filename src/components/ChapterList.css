@@ -1,0 +1,74 @@
+.chapter-list {
+  padding: 1rem;
+}
+
+.chapters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.chapter-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.chapter-card:hover {
+  transform: translateY(-4px);
+}
+
+.chapter-image {
+  position: relative;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+
+.chapter-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.chapter-card:hover .chapter-image img {
+  transform: scale(1.05);
+}
+
+.chapter-content {
+  padding: 1rem;
+}
+
+.chapter-content h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.chapter-content p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Optimize image loading */
+.chapter-image img {
+  background: #f0f0f0;
+}
+
+/* Add loading animation */
+@keyframes loadingPulse {
+  0% { background-color: #f0f0f0; }
+  50% { background-color: #e0e0e0; }
+  100% { background-color: #f0f0f0; }
+}
+
+.chapter-image img:not([loaded]) {
+  animation: loadingPulse 1.5s ease-in-out infinite;
+} 
