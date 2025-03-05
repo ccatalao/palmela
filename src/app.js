@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import ChapterList from './components/ChapterList';
@@ -8,7 +8,7 @@ import InstallPrompt from './components/InstallPrompt';
 
 function App() {
   return (
-    <Router basename="/palmela">
+    <Router>
       <div className="app">
         <Navigation />
         <InstallPrompt />
