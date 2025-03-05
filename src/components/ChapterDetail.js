@@ -13,16 +13,16 @@ function ChapterDetail() {
         {
           id: 'articulo',
           title: 'Articulo',
-          description: 'Revista científica avaliada por pares dedicada à exploração de questões urbanas através de diversas abordagens das ciências sociais.',
+          description: 'Revista online avaliada por pares dedicada à exploração de questões urbanas através da lente de uma ampla gama de abordagens das ciências sociais. A Revista abraça uma perspetiva multidisciplinar sobre a transformação de questões sociais, ambientais e económicas das cidades e regiões urbanas. Publicando artigos tanto teóricos como empíricos, a Revista é um fórum internacional que reúne académicos e profissionais que trabalham em questões urbanas.',
           url: 'https://journals.openedition.org/articulo',
-          imageUrl: '/assets/images/journals/articulo.png'
+          imageUrl: '/assets/images/journals/articulo.jpeg'
         },
         {
           id: 'buildings',
           title: 'Buildings & Cities',
-          description: 'Revista académica que publica investigação sobre a interação entre diferentes escalas do ambiente construído.',
+          description: 'Revista académica internacional, de acesso aberto, avaliada por pares, que publica investigação e análise de alta qualidade sobre a interação entre as diferentes escalas do ambiente construído: edifícios, quarteirões, bairros, cidades, parques imobiliários nacionais e infraestruturas. A revista centra-se nas políticas, práticas e resultados do ambiente construído e na variedade de questões económicas, ambientais, políticas, sociais e tecnológicas que ocorrem ao longo do ciclo de vida completo. Fornece uma plataforma para novas ideias, abordagens inovadoras e perspetivas baseadas em investigação que podem ajudar a melhorar o ambiente construído.',
           url: 'https://journal-buildingscities.org',
-          imageUrl: '/assets/images/journals/buildings.png'
+          imageUrl: '/assets/images/journals/buildings_cities.jpeg'
         },
         // Add more journals as needed
       ]
