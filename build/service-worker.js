@@ -2,11 +2,10 @@ const CACHE_NAME = 'palmela-guide-v1';
 const urlsToCache = [
     '/',
     '/index.html',
-    '/static/js/main.bundle.js',
-    '/static/css/main.css',
     '/manifest.json',
-    '/icons/icon-192x192.png',
-    '/icons/icon-512x512.png'
+    '/assets/styles/main.css',
+    '/assets/scripts/app.js',
+    '/assets/images/logo.png'
 ];
 
 // Install service worker
@@ -25,21 +24,8 @@ self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request)
             .then(response => {
-                if (response) {
-                    return response;
-                }
-                return fetch(event.request)
-                    .then(response => {
-                        if (!response || response.status !== 200 || response.type !== 'basic') {
-                            return response;
-                        }
-                        const responseToCache = response.clone();
-                        caches.open(CACHE_NAME)
-                            .then(cache => {
-                                cache.put(event.request, responseToCache);
-                            });
-                        return response;
-                    });
+                // Return cached version or fetch new
+                return response || fetch(event.request);
             })
     );
 });
