@@ -13,7 +13,7 @@ function Navigation() {
   return (
     <header>
       <div className="header">
-        <h1>Guia Urbano de Palmela</h1>
+        <h1>Roteiro de Conhecimento</h1>
         <button 
           className={`hamburger ${isMenuOpen ? 'active' : ''}`} 
           onClick={toggleMenu}
@@ -32,7 +32,7 @@ function Navigation() {
               className={location.pathname === '/' ? 'active' : ''}
               onClick={() => setIsMenuOpen(false)}
             >
-              Início
+              Apresentação
             </Link>
           </li>
           <li className="nav-item">
@@ -41,7 +41,7 @@ function Navigation() {
               className={location.pathname === '/chapters' ? 'active' : ''}
               onClick={() => setIsMenuOpen(false)}
             >
-              Capítulos
+              Publicações
             </Link>
           </li>
         </ul>
