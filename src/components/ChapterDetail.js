@@ -8,6 +8,8 @@ import articuloJpeg from '../assets/images/journals/articulo.jpeg';
 import buildingsCitiesWebp from '../assets/images/journals/Buildings_Cities.webp';
 import buildingsCitiesJpeg from '../assets/images/journals/Buildings_Cities.jpeg';
 
+
+
 function ChapterDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
