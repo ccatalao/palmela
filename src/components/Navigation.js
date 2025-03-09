@@ -44,6 +44,24 @@ function Navigation() {
               Publicações
             </Link>
           </li>
+          <li className="nav-item">
+            <Link 
+              to="/projects" 
+              className={location.pathname === '/projects' ? 'active' : ''}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Projetos
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link 
+              to="/funding" 
+              className={location.pathname === '/funding' ? 'active' : ''}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Financiamento
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

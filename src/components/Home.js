@@ -17,6 +17,29 @@ function Home() {
           <div className="feature-image">
             <picture>
               <source 
+                srcSet="/images/municipio.webp"
+                type="image/webp"
+              />
+              <img 
+                src="/images/municipio.jpeg"
+                alt="Serviços Municipais"
+                width={400}
+                height={300}
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <div className="feature-content">
+            <h3>Serviços Municipais</h3>
+            <p>Aceda aos serviços e recursos municipais em matéria de urbanismo, ordenamento do território e habitação.</p>
+            <Link to="/municipio" className="feature-button">Ver serviços</Link>
+          </div>
+        </div>
+
+        <div className="feature-card">
+          <div className="feature-image">
+            <picture>
+              <source 
                 srcSet="/images/eu-projects.webp"
                 type="image/webp"
               />

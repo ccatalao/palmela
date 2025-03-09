@@ -1,0 +1,200 @@
+{
+  "projects": [
+    {
+      "id": "cordis",
+      "title": "CORDIS",
+      "description": "Community Research and Development Information Service - Primary repository of all EU-funded research projects",
+      "url": "https://cordis.europa.eu/",
+      "features": [
+        {
+          "feature": "Advanced search filters for urban planning topics",
+          "featureURL": "https://cordis.europa.eu/search"
+        },
+        {
+          "feature": "Complete project results and deliverables",
+          "featureURL": "https://cordis.europa.eu/projects/en"
+        },
+        {
+          "feature": "Contact information of project coordinators",
+          "featureURL": "https://cordis.europa.eu/partners"
+        }
+      ],
+      "imageUrl": {
+        "webp": "/images/projects/cordis.webp",
+        "fallback": "/images/projects/cordis.jpeg",
+        "thumbnail": {
+          "width": 400,
+          "height": 300
+        }
+      }
+    },
+    {
+      "id": "urbact",
+      "title": "URBACT Knowledge Hub",
+      "description": "Platform specifically focused on urban development projects, providing comprehensive resources and best practices for sustainable urban development",
+      "url": "https://urbact.eu/knowledge-hub",
+      "features": [
+        {
+          "feature": "Good practice examples",
+          "featureURL": "https://urbact.eu/good-practices/home"
+        },
+        {
+          "feature": "Case studies",
+          "featureURL": "https://urbact.eu/case-studies"
+        },
+        {
+          "feature": "Toolkits and methodologies",
+          "featureURL": "https://urbact.eu/toolbox-home"
+        }
+      ],
+      "imageUrl": {
+        "webp": "/images/projects/urbact.webp",
+        "fallback": "/images/projects/urbact.jpeg",
+        "thumbnail": {
+          "width": 400,
+          "height": 300
+        }
+      }
+    },
+    {
+      "id": "jpi-urban-europe",
+      "title": "JPI Urban Europe Project Database",
+      "description": "Database focused on sustainable urban development, showcasing innovative solutions and implementation results",
+      "url": "https://jpi-urbaneurope.eu/projects/",
+      "features": [
+        {
+          "feature": "Detailed project descriptions",
+          "featureURL": "https://jpi-urbaneurope.eu/projects/"
+        },
+        {
+          "feature": "Innovation solutions",
+          "featureURL": "https://jpi-urbaneurope.eu/projects/innovation/"
+        },
+        {
+          "feature": "Implementation results",
+          "featureURL": "https://jpi-urbaneurope.eu/projects/results/"
+        }
+      ],
+      "imageUrl": {
+        "webp": "/images/projects/jpi-urban.webp",
+        "fallback": "/images/projects/jpi-urban.jpeg",
+        "thumbnail": {
+          "width": 400,
+          "height": 300
+        }
+      }
+    },
+    {
+      "id": "keep-eu",
+      "title": "KEEP.eu",
+      "description": "Comprehensive database of territorial cooperation projects with interactive features and detailed project information",
+      "url": "https://keep.eu/",
+      "features": [
+        {
+          "feature": "Interactive map",
+          "featureURL": "https://keep.eu/maps/"
+        },
+        {
+          "feature": "Project result indicators",
+          "featureURL": "https://keep.eu/projects/"
+        },
+        {
+          "feature": "Partnership information",
+          "featureURL": "https://keep.eu/partners/"
+        }
+      ],
+      "imageUrl": {
+        "webp": "/images/projects/keep-eu.webp",
+        "fallback": "/images/projects/keep-eu.jpeg",
+        "thumbnail": {
+          "width": 400,
+          "height": 300
+        }
+      }
+    },
+    {
+      "id": "espon",
+      "title": "ESPON Database",
+      "description": "Specialized database focusing on territorial development and spatial planning, providing research-based policy recommendations",
+      "url": "https://www.espon.eu/tools-maps/espon-tools",
+      "features": [
+        {
+          "feature": "Research results",
+          "featureURL": "https://www.espon.eu/tools-maps"
+        },
+        {
+          "feature": "Territorial indicators",
+          "featureURL": "https://www.espon.eu/tools-maps/indicators"
+        },
+        {
+          "feature": "Policy recommendations",
+          "featureURL": "https://www.espon.eu/policy-briefs"
+        }
+      ],
+      "imageUrl": {
+        "webp": "/images/projects/espon.webp",
+        "fallback": "/images/projects/espon.jpeg",
+        "thumbnail": {
+          "width": 400,
+          "height": 300
+        }
+      }
+    },
+    {
+      "id": "eukn",
+      "title": "European Urban Knowledge Network",
+      "description": "E-library of urban development projects providing comprehensive resources for urban policy and research",
+      "url": "https://www.eukn.eu/",
+      "features": [
+        {
+          "feature": "Policy papers",
+          "featureURL": "https://www.eukn.eu/policy/"
+        },
+        {
+          "feature": "Research reports",
+          "featureURL": "https://www.eukn.eu/research/"
+        },
+        {
+          "feature": "Case studies",
+          "featureURL": "https://www.eukn.eu/cases/"
+        }
+      ],
+      "imageUrl": {
+        "webp": "/images/projects/eukn.webp",
+        "fallback": "/images/projects/eukn.jpeg",
+        "thumbnail": {
+          "width": 400,
+          "height": 300
+        }
+      }
+    },
+    {
+      "id": "uia",
+      "title": "Urban Innovative Actions",
+      "description": "Database of innovative urban projects showcasing cutting-edge solutions and implementation strategies",
+      "url": "https://uia-initiative.eu/en/uia-cities",
+      "features": [
+        {
+          "feature": "Detailed project documentation",
+          "featureURL": "https://uia-initiative.eu/en/projects"
+        },
+        {
+          "feature": "Implementation results",
+          "featureURL": "https://uia-initiative.eu/en/results"
+        },
+        {
+          "feature": "Knowledge transfer materials",
+          "featureURL": "https://uia-initiative.eu/en/knowledge-lab"
+        }
+      ],
+      "imageUrl": {
+        "webp": "/images/projects/uia.webp",
+        "fallback": "/images/projects/uia.jpeg",
+        "thumbnail": {
+          "width": 400,
+          "height": 300
+        }
+      }
+    }
+  ]
+} 
