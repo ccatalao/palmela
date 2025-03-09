@@ -419,13 +419,237 @@
       },
       "content": [
         {
-          "id": "articulo",
-          "title": "Articulo",
-          "description": "Revista online avaliada por pares dedicada à exploração de questões urbanas através da lente de uma ampla gama de abordagens das ciências sociais. A Revista abraça uma perspetiva multidisciplinar sobre a transformação de questões sociais, ambientais e económicas das cidades e regiões urbanas. Publicando artigos tanto teóricos como empíricos, a Revista é um fórum internacional que reúne académicos e profissionais que trabalham em questões urbanas.",
-          "url": "https://journals.openedition.org/articulo",
+          "id": "blue-green-systems",
+          "title": "Blue-Green Systems",
+          "description": "Publica pesquisas sobre uso de água sustentável, energeticamente eficiente e ambientalmente responsável em cidades e suas regiões. Contribuições de engenheiros hídricos, economistas, planeadores, hidrólogos, ecologistas, sociólogos, arquitetos, designers de paisagem, profissionais de saúde, decisores políticos e qualquer pessoa envolvida na resolução dos desafios hídricos.",
+          "url": "https://iwaponline.com/bgs/pages/Aims_and_Scope",
           "imageUrl": {
-            "webp": "/images/journals/articulo.webp",
-            "fallback": "/images/journals/articulo.jpeg",
+            "webp": "/images/journals/blue-green-systems.webp",
+            "fallback": "/images/journals/blue-green-systems.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "cities-environment",
+          "title": "Cities and the Environment",
+          "description": "Investigação, educação e prática relacionadas com o amplo campo da ecologia urbana. Inclui produtos multimédia como simulações, streams de vídeo, produções de áudio e outras ferramentas de visualização. Os utilizadores podem ler, descarregar, copiar, distribuir, imprimir, pesquisar ou criar links para os textos completos dos artigos.",
+          "url": "https://digitalcommons.lmu.edu/cate/",
+          "imageUrl": {
+            "webp": "/images/journals/cities-environment.webp",
+            "fallback": "/images/journals/cities-environment.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "city-environment-interactions",
+          "title": "City and Environment Interactions",
+          "description": "Um fórum internacional e interdisciplinar de acesso aberto rápido focado nas interações entre cidades e pressões ambientais e climáticas.",
+          "url": "https://www.sciencedirect.com/journal/city-and-environment-interactions",
+          "imageUrl": {
+            "webp": "/images/journals/city-environment-interactions.webp",
+            "fallback": "/images/journals/city-environment-interactions.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "creative-practices",
+          "title": "European Journal of Creative Practices in Cities and Landscapes",
+          "description": "Revista semestral, publicar artigos inovadores e originais sobre património cultural no ambiente construído como um conjunto de práticas criativas. O foco será a cidade europeia, com particular atenção às suas transformações dentro da metrópole global e aos seus fluxos de pessoas, capitais, bens e ideias.",
+          "url": "https://cpcl.unibo.it/",
+          "imageUrl": {
+            "webp": "/images/journals/creative-practices.webp",
+            "fallback": "/images/journals/creative-practices.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "spatial-development",
+          "title": "European Journal of Spatial Development",
+          "description": "Uma revista de acesso aberto para o planeamento territorial, desenvolvimento regional, elaboração de políticas e governança, a partir de perspetivas europeias e relacionadas com a UE. Serve como uma plataforma para académicos críticos e profissionais de desenvolvimento espacial partilharem investigação de ponta.",
+          "url": "https://journals.polito.it/index.php/EJSD",
+          "imageUrl": {
+            "webp": "/images/journals/spatial-development.webp",
+            "fallback": "/images/journals/spatial-development.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "finisterra",
+          "title": "Finisterra",
+          "description": "Revista Portuguesa de Geografia, a Finisterra é editada desde 1966 pelo Centro de Estudos Geográficos da Universidade de Lisboa (CEG, Universidade de Lisboa).",
+          "url": "https://revistas.rcaap.pt/finisterra",
+          "imageUrl": {
+            "webp": "/images/journals/finisterra.webp",
+            "fallback": "/images/journals/finisterra.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "urban-rural-planning",
+          "title": "Frontiers of Urban and Rural Planning",
+          "description": "Um fórum para artigos de investigação originais, notas técnicas, revisões e estudos de caso do planeamento urbano. Estudos inovadores e multidisciplinares sobre a promoção do bem-estar das pessoas e do desenvolvimento sustentável em áreas urbanas e rurais, utilizando uma abordagem integrada no planeamento do território.",
+          "url": "https://link.springer.com/journal/44243",
+          "imageUrl": {
+            "webp": "/images/journals/urban-rural-planning.webp",
+            "fallback": "/images/journals/urban-rural-planning.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "regional-development",
+          "title": "Insights into Regional Development",
+          "description": "Visa revelar novos fenómenos de desenvolvimento regional para encontrar as melhores formas de lidar com questões emergentes para o desenvolvimento regional sustentável e seguro em todo o mundo. Foco especial em regiões emergentes e menos desenvolvidas.",
+          "url": "https://jssidoi.org/ird/",
+          "imageUrl": {
+            "webp": "/images/journals/regional-development.webp",
+            "fallback": "/images/journals/regional-development.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "public-space",
+          "title": "Journal of Public Space",
+          "description": "É a primeira revista académica internacional, interdisciplinar, de acesso aberto inteiramente dedicada ao espaço público. Fala diferentes línguas e está aberta a abraçar a diversidade de campos interdisciplinares e todos os países.",
+          "url": "https://www.journalpublicspace.org/index.php/jps",
+          "imageUrl": {
+            "webp": "/images/journals/public-space.webp",
+            "fallback": "/images/journals/public-space.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "public-transportation",
+          "title": "Journal of Public Transportation",
+          "description": "Com foco nas várias formas de transporte público, os tópicos são abordados a partir de várias disciplinas académicas, incluindo engenharia, economia, ciências comportamentais, planeamento, geografia, políticas públicas, ciência de dados e outras. A ênfase é colocada na identificação de soluções inovadoras para problemas de transporte público.",
+          "url": "https://www.sciencedirect.com/journal/journal-of-public-transportation",
+          "imageUrl": {
+            "webp": "/images/journals/public-transportation.webp",
+            "fallback": "/images/journals/public-transportation.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "spatial-information",
+          "title": "Journal of Spatial Information Science",
+          "description": "O Journal of Spatial Information Science (JOSIS) é uma revista internacional, interdisciplinar, de acesso aberto dedicada à publicação de artigos de investigação originais e de alta qualidade em ciência da informação espacial e geográfica, através da computação com informação geoespacial, até às tecnologias para uso de informação geográfica.",
+          "url": "https://josis.org/index.php/josis/article/view/357",
+          "imageUrl": {
+            "webp": "/images/journals/spatial-information.webp",
+            "fallback": "/images/journals/spatial-information.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "planext",
+          "title": "plaNext",
+          "description": "A rede de jovens académicos da AESOP fundou a plaNext para proporcionar aos potenciais autores uma oportunidade de envolver as suas ideias em debates internacionais de planeamento, bem como para tornar a sua investigação disponível para um público mais amplo de planeamento.",
+          "url": "https://journals.aesop-planning.eu/index.php/planext",
+          "imageUrl": {
+            "webp": "/images/journals/planext.webp",
+            "fallback": "/images/journals/planext.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "regional-science-policy",
+          "title": "Regional Science Policy & Practice",
+          "description": "Publica artigos sobre planeamento, política pública, geografia, economia e ciência ambiental. Um fórum para académicos e decisores políticos desenvolverem um diálogo para identificar e explorar muitos dos desafios que enfrentam as economias locais e regionais.",
+          "url": "https://www.sciencedirect.com/journal/regional-science-policy-and-practice",
+          "imageUrl": {
+            "webp": "/images/journals/regional-science-policy.webp",
+            "fallback": "/images/journals/regional-science-policy.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "regional-studies",
+          "title": "Regional Studies, Regional Science",
+          "description": "Uma revista de acesso aberto sobre questões regionais e urbanas em geografia, economia, ciência regional, estudos ambientais, planeamento e governança.",
+          "url": "https://www.tandfonline.com/journals/rsrs20",
+          "imageUrl": {
+            "webp": "/images/journals/regional-studies.webp",
+            "fallback": "/images/journals/regional-studies.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "scienze-territorio",
+          "title": "Scienze del Territorio Rivista di Studi Territorialisti",
+          "description": "A revista acolhe estudos pioneiros destinados a valorizar o património territorial, propondo projetos de transformação baseados nas suas diretrizes.",
+          "url": "https://oajournals.fupress.net/index.php/sdt/index",
+          "imageUrl": {
+            "webp": "/images/journals/scienze-territorio.webp",
+            "fallback": "/images/journals/scienze-territorio.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "tema",
+          "title": "TeMA: Journal of Land Use, Mobility and Environment",
+          "description": "A revista TeMA foi estabelecida com o objetivo primário de fomentar e fortalecer a integração entre estudos de transformação urbana e aqueles focados na governança da mobilidade, em todos os seus aspetos, com vista à sustentabilidade ambiental.",
+          "url": "http://www.serena.unina.it/index.php/tema/index",
+          "imageUrl": {
+            "webp": "/images/journals/tema.webp",
+            "fallback": "/images/journals/tema.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "territorial-identity",
+          "title": "Territorial Identity and Development",
+          "description": "Territorial Identity and Development é uma revista internacional e interdisciplinar. Tem duas edições por ano: maio (edição da Primavera) e novembro (edição do Outono). Cada edição inclui 5 artigos de investigação e 2 revisões de livros.",
+          "url": "https://territorial-identity.ro/",
+          "imageUrl": {
+            "webp": "/images/journals/territorial-identity.webp",
+            "fallback": "/images/journals/territorial-identity.jpeg",
             "thumbnail": {
               "width": 400,
               "height": 300
@@ -447,13 +671,139 @@
       },
       "content": [
         {
-          "id": "articulo",
-          "title": "Articulo",
-          "description": "Revista online avaliada por pares dedicada à exploração de questões urbanas através da lente de uma ampla gama de abordagens das ciências sociais. A Revista abraça uma perspetiva multidisciplinar sobre a transformação de questões sociais, ambientais e económicas das cidades e regiões urbanas. Publicando artigos tanto teóricos como empíricos, a Revista é um fórum internacional que reúne académicos e profissionais que trabalham em questões urbanas.",
-          "url": "https://journals.openedition.org/articulo",
+          "id": "architecture-mps",
+          "title": "MPS - Architecture, Media, Politics, and Society",
+          "description": "Architecture_MPS é uma revista internacional da UCL Press. Publica artigos de urbanistas, arquitetos, designers urbanos, sociólogos, artistas, economistas urbanos e advogados especializados em direitos fundiários, e visa abordar a relação destas disciplinas com o ambiente construído.",
+          "url": "https://journals.uclpress.co.uk/amps/",
           "imageUrl": {
-            "webp": "/images/journals/articulo.webp",
-            "fallback": "/images/journals/articulo.jpeg",
+            "webp": "/images/journals/architecture-mps.webp",
+            "fallback": "/images/journals/architecture-mps.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "agathon",
+          "title": "AGATHÓN",
+          "description": "Revista semestral para o crescimento e disseminação do conhecimento nos temas abrangidos pelo Urbanismo, Arquitetura, Engenharia, Arte e Design.",
+          "url": "https://www.agathon.it/agathon",
+          "imageUrl": {
+            "webp": "/images/journals/agathon.webp",
+            "fallback": "/images/journals/agathon.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "cadernos-arte-publica",
+          "title": "Cadernos de Arte Pública",
+          "description": "Publicação científica dedicada à Arte Pública como área de interseção entre arte, design e património e a construção participada do espaço público. Promovido pela AP2 (associação científica) através do projeto Urbancreativity.org.",
+          "url": "https://journals.ap2.pt/index.php/CAP/index",
+          "imageUrl": {
+            "webp": "/images/journals/cadernos-arte-publica.webp",
+            "fallback": "/images/journals/cadernos-arte-publica.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "city-territory-architecture",
+          "title": "City, Territory and Architecture",
+          "description": "A revista partilha conhecimentos e posições científicas teóricas e aplicadas com o objetivo primário de explorar relações conceituais e físicas entre cidade, território e arquitetura.",
+          "url": "https://cityterritoryarchitecture.springeropen.com/",
+          "imageUrl": {
+            "webp": "/images/journals/city-territory-architecture.webp",
+            "fallback": "/images/journals/city-territory-architecture.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "docomomo-journal",
+          "title": "Docomomo Journal",
+          "description": "Publica um resumo semestral de investigação recente e original sobre a documentação e conservação de edifícios, locais e bairros do Movimento Moderno.",
+          "url": "https://docomomojournal.com/index.php/journal/about",
+          "imageUrl": {
+            "webp": "/images/journals/docomomo-journal.webp",
+            "fallback": "/images/journals/docomomo-journal.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "enq-enquiry",
+          "title": "ENQ - Enquiry",
+          "description": "Revista de acesso aberto para investigação arquitetónica, publicada pelo Architectural Research Centers Consortium (ARCC) como um recurso para investigação em arquitetura e para apoiar o desenvolvimento contínuo da cultura de investigação na arquitetura.",
+          "url": "https://www.arcc-journal.org/index.php/arccjournal",
+          "imageUrl": {
+            "webp": "/images/journals/enq-enquiry.webp",
+            "fallback": "/images/journals/enq-enquiry.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "estudo-previo",
+          "title": "Estudo Prévio",
+          "description": "Publicação académica do Centro de Estudos de Arquitetura, Cidade e Território da Universidade Autónoma de Lisboa (CEACT/UAL).",
+          "url": "https://www.estudoprevio.net/",
+          "imageUrl": {
+            "webp": "/images/journals/estudo-previo.webp",
+            "fallback": "/images/journals/estudo-previo.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "field",
+          "title": "Field",
+          "description": "Publicação internacional de renome, revista por pares e de acesso aberto, com sede na Escola de Arquitetura da Universidade de Sheffield.",
+          "url": "https://www.field-journal.org/",
+          "imageUrl": {
+            "webp": "/images/journals/field.webp",
+            "fallback": "/images/journals/field.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "architecture-urbanism",
+          "title": "Journal of Architecture and Urbanism",
+          "description": "Publica investigação original sobre todos os aspetos da arquitetura urbana.",
+          "url": "https://journals.vilniustech.lt/index.php/JAU",
+          "imageUrl": {
+            "webp": "/images/journals/architecture-urbanism.webp",
+            "fallback": "/images/journals/architecture-urbanism.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "revista-arquitectura",
+          "title": "Revista de Arquitectura",
+          "description": "Constitui um fórum apto para a expressão dos resultados do estudo e do debate académico em relação às diversas dimensões do interesse pela arquitetura e pela cidade.",
+          "url": "https://revistas.unav.edu/index.php/revista-de-arquitectura",
+          "imageUrl": {
+            "webp": "/images/journals/revista-arquitectura.webp",
+            "fallback": "/images/journals/revista-arquitectura.jpeg",
             "thumbnail": {
               "width": 400,
               "height": 300
