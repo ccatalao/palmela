@@ -58,6 +58,7 @@ body {
   position: relative;
   width: 100%;
   aspect-ratio: 4/3;
+  overflow: hidden;
 }
 
 .content-image,
@@ -65,15 +66,22 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  background: #f0f0f0;
+  background: #e0e0e0;
   overflow: hidden;
 }
 
-.content-image picture,
-.chapter-image picture {
-  width: 100%;
-  height: 100%;
-  display: block;
+.content-image::before,
+.chapter-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #e0e0e0 0%, #f0f0f0 50%, #e0e0e0 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  z-index: 1;
 }
 
 .content-image img,
@@ -83,8 +91,27 @@ body {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease;
-  background: #f0f0f0;
   display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.content-image img[src],
+.chapter-image img[src] {
+  background: transparent;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 /* Overlay Effects */
