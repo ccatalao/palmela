@@ -39,33 +39,40 @@ function ChapterList() {
         <p>Este roteiro de conhecimento é uma ferramenta prática para todos os que precisam fundamentar as suas decisões em evidências científicas sólidas, contribuindo para políticas de desenvolvimento local mais eficazes e sustentáveis.</p>
       </div>
 
-      <div className="chapters-grid">
+      <div className="content-grid">
         {chapters.map(chapter => (
-          <Link 
-            to={`/chapter/${chapter.id}`} 
-            key={chapter.id}
-            className="chapter-card"
-          >
-            <div className="chapter-image">
-              <picture>
-                <source 
-                  srcSet={chapter.imageUrl?.webp}
-                  type="image/webp"
-                />
-                <img 
-                  src={chapter.imageUrl?.fallback}
-                  alt={chapter.title}
-                  width={chapter.imageUrl?.thumbnail?.width || 400}
-                  height={chapter.imageUrl?.thumbnail?.height || 300}
-                  loading="lazy"
-                />
-              </picture>
-            </div>
-            <div className="chapter-content">
+          <div key={chapter.id} className="content-card">
+            <Link 
+              to={`/chapter/${chapter.id}`}
+              className="content-image-link"
+            >
+              <div className="content-image">
+                <picture>
+                  <source 
+                    srcSet={process.env.PUBLIC_URL + chapter.imageUrl.webp}
+                    type="image/webp"
+                  />
+                  <img 
+                    src={process.env.PUBLIC_URL + chapter.imageUrl.fallback}
+                    alt={chapter.title}
+                    width={chapter.imageUrl?.thumbnail?.width || 400}
+                    height={chapter.imageUrl?.thumbnail?.height || 300}
+                    loading="lazy"
+                  />
+                </picture>
+                <div className="image-overlay">
+                  <span>Ver publicações →</span>
+                </div>
+              </div>
+            </Link>
+            <div className="content-info">
               <h3>{chapter.title}</h3>
               <p>{chapter.description}</p>
+              <Link to={`/chapter/${chapter.id}`} className="visit-button">
+                Ver publicações →
+              </Link>
             </div>
-          </Link>
+          </div>
         ))}
       </div>
     </div>

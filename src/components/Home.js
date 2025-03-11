@@ -17,11 +17,11 @@ function Home() {
           <div className="feature-image">
             <picture>
               <source 
-                srcSet="/images/municipio.webp"
+                srcSet={process.env.PUBLIC_URL + '/images/home/municipio.webp'}
                 type="image/webp"
               />
               <img 
-                src="/images/municipio.jpeg"
+                src={process.env.PUBLIC_URL + '/images/home/municipio.jpg'}
                 alt="Serviços Municipais"
                 width={400}
                 height={300}
@@ -40,11 +40,11 @@ function Home() {
           <div className="feature-image">
             <picture>
               <source 
-                srcSet="/images/eu-projects.webp"
+                srcSet={process.env.PUBLIC_URL + '/images/home/projects.webp'}
                 type="image/webp"
               />
               <img 
-                src="/images/eu-projects.jpeg"
+                src={process.env.PUBLIC_URL + '/images/home/projects.jpg'}
                 alt="Projetos europeus"
                 width={400}
                 height={300}
@@ -63,11 +63,11 @@ function Home() {
           <div className="feature-image">
             <picture>
               <source 
-                srcSet="/images/funding.webp"
+                srcSet={process.env.PUBLIC_URL + '/images/home/funding.webp'}
                 type="image/webp"
               />
               <img 
-                src="/images/funding.jpeg"
+                src={process.env.PUBLIC_URL + '/images/home/funding.jpg'}
                 alt="Financiamento"
                 width={400}
                 height={300}
@@ -86,11 +86,11 @@ function Home() {
           <div className="feature-image">
             <picture>
               <source 
-                srcSet="/images/publications.webp"
+                srcSet={process.env.PUBLIC_URL + '/images/home/publications.webp'}
                 type="image/webp"
               />
               <img 
-                src="/images/publications.jpeg"
+                src={process.env.PUBLIC_URL + '/images/home/publications.jpg'}
                 alt="Publicações de acesso aberto"
                 width={400}
                 height={300}

@@ -8,11 +8,6 @@ function ChapterDetail() {
   const navigate = useNavigate();
   const chapter = chaptersData.chapters[id];
 
-  // Add debugging logs
-  console.log('Chapter ID:', id);
-  console.log('Full chapter data:', chapter);
-  console.log('Number of journals:', chapter?.content?.length);
-
   if (!chapter) {
     return (
       <div className="chapter-error">
@@ -34,50 +29,47 @@ function ChapterDetail() {
       </div>
 
       <div className="content-grid">
-        {chapter.content.map((item, index) => {
-          console.log(`Rendering journal ${index + 1}:`, item.title);
-          return (
-            <div key={item.id} className="content-card">
+        {chapter.content.map((item) => (
+          <div key={item.id} className="content-card">
+            <a 
+              href={item.url} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="content-image-link"
+            >
+              <div className="content-image">
+                <picture>
+                  <source 
+                    srcSet={process.env.PUBLIC_URL + item.imageUrl.webp}
+                    type="image/webp"
+                  />
+                  <img 
+                    src={process.env.PUBLIC_URL + item.imageUrl.fallback}
+                    alt={item.title}
+                    width={item.imageUrl?.thumbnail?.width || 400}
+                    height={item.imageUrl?.thumbnail?.height || 300}
+                    loading="lazy"
+                  />
+                </picture>
+                <div className="image-overlay">
+                  <span>Visitar Website →</span>
+                </div>
+              </div>
+            </a>
+            <div className="content-info">
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
               <a 
                 href={item.url} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="content-image-link"
+                className="visit-button"
               >
-                <div className="content-image">
-                  <picture>
-                    <source 
-                      srcSet={item.imageUrl?.webp}
-                      type="image/webp"
-                    />
-                    <img 
-                      src={item.imageUrl?.fallback}
-                      alt={item.title}
-                      width={item.imageUrl?.thumbnail?.width || 400}
-                      height={item.imageUrl?.thumbnail?.height || 300}
-                      loading="lazy"
-                    />
-                  </picture>
-                  <div className="image-overlay">
-                    <span>Visitar Website →</span>
-                  </div>
-                </div>
+                Visitar →
               </a>
-              <div className="content-info">
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-                <a 
-                  href={item.url} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="visit-button"
-                >
-                  Visitar →
-                </a>
-              </div>
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
     </div>
   );

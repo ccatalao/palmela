@@ -3,25 +3,25 @@
     {
       "id": "cordis",
       "title": "CORDIS",
-      "description": "Community Research and Development Information Service - Primary repository of all EU-funded research projects",
+      "description": "Repositório de projetos de investigação financiados pela União Europeia.",
       "url": "https://cordis.europa.eu/",
       "features": [
         {
-          "feature": "Advanced search filters for urban planning topics",
+          "feature": "Pesquisa avançada de projetos",
           "featureURL": "https://cordis.europa.eu/search"
         },
         {
-          "feature": "Complete project results and deliverables",
+          "feature": "Resultados dos projetos",
           "featureURL": "https://cordis.europa.eu/projects/en"
         },
         {
-          "feature": "Contact information of project coordinators",
+          "feature": "Contactos dos coordenadores",
           "featureURL": "https://cordis.europa.eu/partners"
         }
       ],
       "imageUrl": {
-        "webp": "/images/projects/cordis.webp",
-        "fallback": "/images/projects/cordis.jpeg",
+        "webp": "/images/projetos/cordis.webp",
+        "fallback": "/images/projetos/cordis.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -48,8 +48,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/projects/urbact.webp",
-        "fallback": "/images/projects/urbact.jpeg",
+        "webp": "/images/projetos/urbact.webp",
+        "fallback": "/images/projetos/urbact.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -76,8 +76,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/projects/jpi-urban.webp",
-        "fallback": "/images/projects/jpi-urban.jpeg",
+        "webp": "/images/projetos/jpi-urban.webp",
+        "fallback": "/images/projetos/jpi-urban.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -104,8 +104,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/projects/keep-eu.webp",
-        "fallback": "/images/projects/keep-eu.jpeg",
+        "webp": "/images/projetos/keep-eu.webp",
+        "fallback": "/images/projetos/keep-eu.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -132,8 +132,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/projects/espon.webp",
-        "fallback": "/images/projects/espon.jpeg",
+        "webp": "/images/projetos/espon.webp",
+        "fallback": "/images/projetos/espon.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -160,8 +160,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/projects/eukn.webp",
-        "fallback": "/images/projects/eukn.jpeg",
+        "webp": "/images/projetos/eukn.webp",
+        "fallback": "/images/projetos/eukn.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -188,8 +188,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/projects/uia.webp",
-        "fallback": "/images/projects/uia.jpeg",
+        "webp": "/images/projetos/uia.webp",
+        "fallback": "/images/projetos/uia.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
