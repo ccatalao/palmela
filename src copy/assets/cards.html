@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Card Layout</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #f5f5f7;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Card container */
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        /* Card styling */
+        .card {
+            display: flex;
+            flex-direction: column;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Card image section */
+        .card-image {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 100%; /* 1:1 Aspect Ratio */
+            overflow: hidden;
+        }
+
+        .card-image img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        /* Card content */
+        .card-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        /* Card header with organization/author */
+        .card-org {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #6e6e73;
+        }
+
+        .card-org svg {
+            width: 18px;
+            height: 18px;
+            margin-right: 8px;
+            fill: #6e6e73;
+        }
+
+        /* Card title */
+        .card-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #1d1d1f;
+        }
+
+        /* Card description */
+        .card-description {
+            font-size: 14px;
+            color: #424245;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        /* Card metrics */
+        .card-metrics {
+            display: flex;
+            align-items: center;
+            margin-top: auto;
+            color: #e44d26;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .card-metrics svg {
+            width: 18px;
+            height: 18px;
+            margin-right: 6px;
+            fill: #e44d26;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .card-container {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card-container {
+                grid-template-columns: 1fr;
+            }
+            
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <!-- Card 1 -->
+        <div class="card">
+            <div class="card-image">
+                <img src="https://via.placeholder.com/500/2a323c/ffffff?text=FLUX1.1" alt="FLUX1.1 Pro">
+            </div>
+            <div class="card-content">
+                <div class="card-org">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                    <span>black-forest-labs / flux-1.1-pro</span>
+                </div>
+                <h2 class="card-title">FLUX1.1 Pro</h2>
+                <p class="card-description">Faster, better FLUX Pro. Text-to-image model with excellent image quality, prompt adherence, and output diversity.</p>
+                <div class="card-metrics">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M13.13 22.19L11.5 18.36c-1.03.83-2.22 1.39-3.5 1.61L13.13 22.19zM5.64 12.5L1.81 10.87l2.22 5.13c.22-1.28.78-2.47 1.61-3.5L5.64 12.5zM21.61 2.39L2.39 21.61 4.13 20.2 6.96 17.04l2.23-2.23L12 11.97l2.8-2.8 2.85-2.85L20.2 4.13l1.41-1.74z"/>
+                    </svg>
+                    <span>18.6M runs</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <div class="card-image">
+                <img src="https://via.placeholder.com/500/a5b5c2/ffffff?text=FLUX" alt="FLUX Pro Ultra">
+            </div>
+            <div class="card-content">
+                <div class="card-org">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                    <span>black-forest-labs / flux-1.1-pro-ultra</span>
+                </div>
+                <h2 class="card-title">FLUX pro ultra</h2>
+                <p class="card-description">FLUX1.1 [pro] in ultra and raw modes. Images are up to 4 megapixels. Use raw mode for realism.</p>
+                <div class="card-metrics">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M13.13 22.19L11.5 18.36c-1.03.83-2.22 1.39-3.5 1.61L13.13 22.19zM5.64 12.5L1.81 10.87l2.22 5.13c.22-1.28.78-2.47 1.61-3.5L5.64 12.5zM21.61 2.39L2.39 21.61 4.13 20.2 6.96 17.04l2.23-2.23L12 11.97l2.8-2.8 2.85-2.85L20.2 4.13l1.41-1.74z"/>
+                    </svg>
+                    <span>7.4M runs</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <div class="card-image">
+                <img src="https://via.placeholder.com/500/2a3d2c/ffffff?text=FLUX+SCHNELL" alt="FLUX Schnell">
+            </div>
+            <div class="card-content">
+                <div class="card-org">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                    <span>black-forest-labs / flux-schnell</span>
+                </div>
+                <h2 class="card-title">FLUX SCHNELL</h2>
+                <p class="card-description">The fastest image generation model tailored for local development and personal use</p>
+                <div class="card-metrics">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M13.13 22.19L11.5 18.36c-1.03.83-2.22 1.39-3.5 1.61L13.13 22.19zM5.64 12.5L1.81 10.87l2.22 5.13c.22-1.28.78-2.47 1.61-3.5L5.64 12.5zM21.61 2.39L2.39 21.61 4.13 20.2 6.96 17.04l2.23-2.23L12 11.97l2.8-2.8 2.85-2.85L20.2 4.13l1.41-1.74z"/>
+                    </svg>
+                    <span>241.5M runs</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

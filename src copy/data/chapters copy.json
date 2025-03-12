@@ -1,0 +1,102 @@
+{
+  "chapters": {
+    "urbanism": {
+      "title": "Revistas de Urbanismo",
+      "description": "Publicações científicas em urbanismo e gestão urbana",
+      "imageUrl": {
+        "webp": "/images/urbanism.webp",
+        "fallback": "/images/urbanism.jpeg",
+        "thumbnail": {
+          "width": 400,
+          "height": 300
+        }
+      },
+      "content": [
+        {
+          "id": "articulo",
+          "title": "Articulo",
+          "description": "Revista online avaliada por pares dedicada à exploração de questões urbanas através da lente de uma ampla gama de abordagens das ciências sociais. A Revista abraça uma perspetiva multidisciplinar sobre a transformação de questões sociais, ambientais e económicas das cidades e regiões urbanas. Publicando artigos tanto teóricos como empíricos, a Revista é um fórum internacional que reúne académicos e profissionais que trabalham em questões urbanas.",
+          "url": "https://journals.openedition.org/articulo",
+          "imageUrl": {
+            "webp": "/images/journals/articulo.webp",
+            "fallback": "/images/journals/articulo.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "buildings",
+          "title": "Buildings & Cities",
+          "description": "Revista académica internacional, de acesso aberto, avaliada por pares, que publica investigação e análise de alta qualidade sobre a interação entre as diferentes escalas do ambiente construído: edifícios, quarteirões, bairros, cidades, parques imobiliários nacionais e infraestruturas.",
+          "url": "https://journal-buildingscities.org",
+          "imageUrl": {
+            "webp": "/images/journals/buildings_cities.webp",
+            "fallback": "/images/journals/buildings_cities.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        }
+      ]
+    },
+    "planning": {
+      "title": "Planeamento Territorial",
+      "description": "Recursos sobre planeamento e ordenamento do território",
+      "imageUrl": {
+        "webp": "/images/planning.webp",
+        "fallback": "/images/planning.jpeg",
+        "thumbnail": {
+          "width": 400,
+          "height": 300
+        }
+      },
+      "content": [
+        {
+          "id": "articulo",
+          "title": "Articulo",
+          "description": "Revista online avaliada por pares dedicada à exploração de questões urbanas através da lente de uma ampla gama de abordagens das ciências sociais. A Revista abraça uma perspetiva multidisciplinar sobre a transformação de questões sociais, ambientais e económicas das cidades e regiões urbanas. Publicando artigos tanto teóricos como empíricos, a Revista é um fórum internacional que reúne académicos e profissionais que trabalham em questões urbanas.",
+          "url": "https://journals.openedition.org/articulo",
+          "imageUrl": {
+            "webp": "/images/journals/articulo.webp",
+            "fallback": "/images/journals/articulo.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        }
+      ]
+    },
+    "architecture": {
+      "title": "Revistas de Arquitectura",
+      "description": "Revistas académicas dedicadas ao estudo e desenvolvimento da arquitectura",
+      "imageUrl": {
+        "webp": "/images/architecture.webp",
+        "fallback": "/images/architecture.jpeg",
+        "thumbnail": {
+          "width": 400,
+          "height": 300
+        }
+      },
+      "content": [
+        {
+          "id": "articulo",
+          "title": "Articulo",
+          "description": "Revista online avaliada por pares dedicada à exploração de questões urbanas através da lente de uma ampla gama de abordagens das ciências sociais. A Revista abraça uma perspetiva multidisciplinar sobre a transformação de questões sociais, ambientais e económicas das cidades e regiões urbanas. Publicando artigos tanto teóricos como empíricos, a Revista é um fórum internacional que reúne académicos e profissionais que trabalham em questões urbanas.",
+          "url": "https://journals.openedition.org/articulo",
+          "imageUrl": {
+            "webp": "/images/journals/articulo.webp",
+            "fallback": "/images/journals/articulo.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        }
+      ]
+    }
+  }
+} 

@@ -141,6 +141,34 @@
       }
     },
     {
+      "id": "eukn",
+      "title": "European Urban Knowledge Network",
+      "description": "E-library of urban development projects providing comprehensive resources for urban policy and research",
+      "url": "https://www.eukn.eu/",
+      "features": [
+        {
+          "feature": "Policy papers",
+          "featureURL": "https://www.eukn.eu/policy/"
+        },
+        {
+          "feature": "Research reports",
+          "featureURL": "https://www.eukn.eu/research/"
+        },
+        {
+          "feature": "Case studies",
+          "featureURL": "https://www.eukn.eu/cases/"
+        }
+      ],
+      "imageUrl": {
+        "webp": "/images/projetos/eukn.webp",
+        "fallback": "/images/projetos/eukn.jpeg",
+        "thumbnail": {
+          "width": 400,
+          "height": 300
+        }
+      }
+    },
+    {
       "id": "uia",
       "title": "Urban Innovative Actions",
       "description": "Database of innovative urban projects showcasing cutting-edge solutions and implementation strategies",
