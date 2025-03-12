@@ -7,77 +7,63 @@ function FundingList() {
 
   return (
     <div className="chapter-list">
-      <h2>Programas de Financiamento</h2>
       <div className="introduction">
-        <p>Esta secção do roteiro apresenta os principais programas de financiamento europeus para projetos de planeamento territorial, urbanismo, reabilitação urbana e obras públicas.</p>
-        
-        <p>Os municípios podem encontrar aqui:</p>
-        
-        <ul>
-          <li>
-            <strong>Programas-Quadro da UE</strong> – Principais programas de financiamento europeus para desenvolvimento urbano sustentável.
-          </li>
-          <li>
-            <strong>Fundos Estruturais</strong> – Mecanismos de financiamento para coesão territorial e desenvolvimento regional.
-          </li>
-          <li>
-            <strong>Iniciativas Específicas</strong> – Programas focados em áreas como inovação urbana, transição energética e mobilidade.
-          </li>
-          <li>
-            <strong>Mecanismos de Recuperação</strong> – Instrumentos de apoio à recuperação económica e resiliência territorial.
-          </li>
-        </ul>
+        <h2>Programas de Financiamento</h2>
+        <p>Fnanciamento europeu para projetos de ordenamento territorial, urbanismo e reabilitação urbana</p>
 
-        <p>Este catálogo facilita a identificação de oportunidades de financiamento adequadas aos objetivos e necessidades específicas dos municípios em matéria de desenvolvimento urbano sustentável.</p>
+        <p><strong>Fundos Estruturais</strong> – Mecanismos de financiamento para coesão territorial</p>
+
+        <p><strong>Iniciativas Específicas</strong> – Inovação urbana, transição energética e mobilidade.</p>
+
+        <p><strong>Mecanismos de Recuperação</strong> – Recuperação económica e resiliência territorial</p>      
       </div>
 
-      <div className="chapters-grid">
-        {funding.map(program => (
-          <a 
-            href={program.url}
-            key={program.id}
-            className="chapter-card"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="chapter-image">
-              <picture>
-                <source 
-                  srcSet={program.imageUrl?.webp}
-                  type="image/webp"
-                />
-                <img 
-                  src={program.imageUrl?.fallback}
-                  alt={program.title}
-                  width={program.imageUrl?.thumbnail?.width || 400}
-                  height={program.imageUrl?.thumbnail?.height || 300}
-                  loading="lazy"
-                />
-              </picture>
-            </div>
-            <div className="chapter-content">
+      <div className="content-grid">
+        {funding.map((program) => (
+          <div key={program.id} className="content-card">
+            <a 
+              href={program.url} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="content-image-link"
+            >
+              <div className="content-image">
+                <picture>
+                  <source 
+                    srcSet={process.env.PUBLIC_URL + program.imageUrl.webp}
+                    type="image/webp"
+                  />
+                  <img 
+                    src={process.env.PUBLIC_URL + program.imageUrl.fallback}
+                    alt={program.title}
+                    width={program.imageUrl?.thumbnail?.width || 400}
+                    height={program.imageUrl?.thumbnail?.height || 300}
+                    loading="lazy"
+                  />
+                </picture>
+                <div className="image-overlay">
+                  <span>Visitar Website →</span>
+                </div>
+              </div>
+            </a>
+            <div className="content-info">
               <h3>{program.title}</h3>
               <p>{program.description}</p>
-              <div className="content-info">
-                <h4>Áreas de financiamento:</h4>
-                <ul>
-                  {program.features.map((feature, index) => (
-                    <li key={index}>
-                      <a 
-                        href={feature.featureURL}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="visit-button"
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        {feature.feature}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+              <div className="feature-buttons">
+                {program.features.map((feature, index) => (
+                  <a 
+                    key={index}
+                    href={feature.featureURL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="visit-button"
+                  >
+                    {feature.feature}
+                  </a>
+                ))}
               </div>
             </div>
-          </a>
+          </div>
         ))}
       </div>
     </div>

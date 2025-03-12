@@ -3,15 +3,15 @@
     {
       "id": "dut",
       "title": "DUT Driving Urban Transitions",
-      "description": "O objetivo deste Convite à apresentação de propostas é apoiar projetos transnacionais de investigação e/ou inovação que abordem desafios urbanos para ajudar as cidades na sua transição para uma economia e funcionamento mais sustentáveis. A missão consiste em projetos transnacionais de investigação e/ou inovação que abordem desafios urbanos para ajudar as cidades na sua transição para uma economia e funcionamento mais sustentáveis.",
+      "description": "Financiamento de projetos transnacionais de investigação e/ou inovação que abordem desafios urbanos.",
       "url": "https://dutpartnership.eu/dut-call-2025/",
       "features": [
         {
-          "feature": "Economias Urbanas Circulares (CUE)",
+          "feature": "Economias Urbanas Circulares",
           "featureURL": "https://dutpartnership.eu/dut-call-2025/circular-urban-economies/"
         },
         {
-          "feature": "Promoção da mobilidade urbana: inovações para sistemas de mobilidade inclusivos e centrados nos jovens",
+          "feature": "Mobilidade urbana",
           "featureURL": "https://dutpartnership.eu/dut-call-2025/mobility/"
         },
         {
@@ -20,8 +20,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/funding/dut.webp",
-        "fallback": "/images/funding/dut.jpeg",
+        "webp": "/images/financiamento/dut.webp",
+        "fallback": "/images/financiamento/dut.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -44,8 +44,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/funding/life.webp",
-        "fallback": "/images/funding/life.jpeg",
+        "webp": "/images/financiamento/life.webp",
+        "fallback": "/images/financiamento/life.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -64,8 +64,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/funding/erdf.webp",
-        "fallback": "/images/funding/erdf.jpeg",
+        "webp": "/images/financiamento/feder.webp",
+        "fallback": "/images/financiamento/feder.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -84,8 +84,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/funding/uia.webp",
-        "fallback": "/images/funding/uia.jpeg",
+        "webp": "/images/financiamento/uia.webp",
+        "fallback": "/images/financiamento/uia.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -104,8 +104,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/funding/new-european-bauhaus.webp",
-        "fallback": "/images/funding/new-european-bauhaus.jpeg",
+        "webp": "/images/financiamento/bauhaus.webp",
+        "fallback": "/images/financiamento/bauhaus.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -132,8 +132,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/funding/interreg.webp",
-        "fallback": "/images/funding/interreg.jpeg",
+        "webp": "/images/financiamento/interreg.webp",
+        "fallback": "/images/financiamento/interreg.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -152,8 +152,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/funding/investeu.webp",
-        "fallback": "/images/funding/investeu.jpeg",
+        "webp": "/images/financiamento/investeu.webp",
+        "fallback": "/images/financiamento/investeu.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -172,8 +172,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/funding/jtf.webp",
-        "fallback": "/images/funding/jtf.jpeg",
+        "webp": "/images/financiamento/jtf.webp",
+        "fallback": "/images/financiamento/jtf.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
@@ -196,8 +196,8 @@
         }
       ],
       "imageUrl": {
-        "webp": "/images/funding/rrf.webp",
-        "fallback": "/images/funding/rrf.jpeg",
+        "webp": "/images/financiamento/rrf.webp",
+        "fallback": "/images/financiamento/rrf.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300
