@@ -46,8 +46,8 @@
           "description": "Publica investigação sobre a interação entre as diferentes dimensões do ambiente construído: edifícios, bairros, cidades e infraestruturas imobiliárias. A revista centra-se nas políticas, práticas e resultados do ambiente construído. Fornece uma plataforma para novas ideias, abordagens inovadoras e perspetivas baseadas em investigação que podem ajudar a melhorar o ambiente construído.",
           "url": "https://journal-buildingscities.org/",
           "imageUrl": {
-            "webp": "/images/revistas/buildings_cities.webp",
-            "fallback": "/images/revistas/buildings_cities.jpeg",
+            "webp": "/images/revistas/buildings.webp",
+            "fallback": "/images/revistas/buildings.jpeg",
             "thumbnail": {
               "width": 400,
               "height": 300
@@ -62,6 +62,20 @@
           "imageUrl": {
             "webp": "/images/revistas/cidades.webp",
             "fallback": "/images/revistas/cidades.jpeg",
+            "thumbnail": {
+              "width": 400,
+              "height": 300
+            }
+          }
+        },
+        {
+          "id": "city-environment-interactions",
+          "title": "City and Environment Interactions",
+          "description": "Um fórum internacional e interdisciplinar de acesso aberto rápido focado nas interações entre cidades e pressões ambientais e climáticas.",
+          "url": "https://www.sciencedirect.com/journal/city-and-environment-interactions",
+          "imageUrl": {
+            "webp": "/images/revistas/citty-environment-interactions.webp",
+            "fallback": "/images/revistas/citty-environment-interactions.jpeg",
             "thumbnail": {
               "width": 400,
               "height": 300
@@ -114,7 +128,7 @@
           "id": "frontiers-built-environment",
           "title": "Frontiers in Built Environment",
           "description": "Uma revista inovadora que avança o nosso conhecimento de engenharia civil. Foco especial no desenvolvimento de metodologias sustentáveis para a gestão de edifícios e infraestruturas resilientes.",
-          "url": "https://www.frontiersin.org/revistas/built-environment",
+          "url": "https://www.frontiersin.org/journals/built-environment",
           "imageUrl": {
             "webp": "/images/revistas/frontiers-built-environment.webp",
             "fallback": "/images/revistas/frontiers-built-environment.jpeg",
@@ -127,7 +141,7 @@
         {
           "id": "future-cities-environment",
           "title": "Future Cities and Environment",
-          "description": "Aoborda o impacto ambiental das cidades e os desafios à sua sustentabilidade a longo prazo, tanto na escala local como global.",
+          "description": "Aborda o impacto ambiental das cidades e os desafios à sua sustentabilidade a longo prazo, tanto na escala local como global.",
           "url": "https://futurecitiesandenvironment.com/",
           "imageUrl": {
             "webp": "/images/revistas/future-cities-environment.webp",
@@ -144,8 +158,8 @@
           "description": "Publica investigação original multidisciplinar sobre os mais recentes avanços em cidades inteligentes e ciências urbanas e sustentabilidade da academia, indústria e governo. Os nossos artigos abordam normas, arquiteturas, tecnologias-chave, sistemas, implementação, implantação, aplicações, questões sociais, avaliação de desempenho, governança urbana e políticas.",
           "url": "https://ietresearch.onlinelibrary.wiley.com/journal/26317680",
           "imageUrl": {
-            "webp": "/images/revistas/iet-smart-cities.webp",
-            "fallback": "/images/revistas/iet-smart-cities.jpeg",
+            "webp": "/images/revistas/smart-cities.webp",
+            "fallback": "/images/revistas/smart-cities.jpeg",
             "thumbnail": {
               "width": 400,
               "height": 300
@@ -156,10 +170,10 @@
           "id": "international-urban-sustainable",
           "title": "International Journal of Urban Sustainable Development",
           "description": "Com foco no desenvolvimento urbano sustentável e envolvimento comunitário, publica artigos sobre os complexos desafios ambientais, sociais, económicos, políticos, espaciais, institucionais e físicos nas áreas urbanas enfrentam.",
-          "url": "https://www.tandfonline.com/revistas/tjue20",
+          "url": "https://www.tandfonline.com/toc/tjue20/current",
           "imageUrl": {
-            "webp": "/images/revistas/international-urban-sustainable.webp",
-            "fallback": "/images/revistas/international-urban-sustainable.jpeg",
+            "webp": "/images/revistas/urban-sustainable.webp",
+            "fallback": "/images/revistas/urban-sustainable.jpeg",
             "thumbnail": {
               "width": 400,
               "height": 300
@@ -169,7 +183,7 @@
         {
           "id": "irspsd",
           "title": "IRSPSD International",
-          "description": "Uma revista de acesso aberto, revisada por pares, focada nos impactos da política na implementação do planeamento espacial. A revista é uma plataforma multidisciplinar que reflete uma variedade de perspetivas – como desenvolvimento económico, igualdade social e proteção ecológica – com o objetivo final de fornecer insights sobre formas urbanas sustentáveis no processo de urbanização.",
+          "description": "Uma revista de acesso aberto, revisada por pares, focada nos impactos da política na implementação do planeamento espacial. A revista é uma plataforma multidisciplinar que reflete uma variedade de perspetivas – como desenvolvimento económico, igualdade social e proteção ecológica – com o objetivo final de fornecer perspetivas sobre formas urbanas sustentáveis no processo de urbanização.",
           "url": "https://www.spsdpress.org/",
           "imageUrl": {
             "webp": "/images/revistas/irspsd.webp",
@@ -433,34 +447,6 @@
           }
         },
         {
-          "id": "cities-environment",
-          "title": "Cities and the Environment",
-          "description": "Investigação, educação e prática relacionadas com o amplo campo da ecologia urbana. Inclui produtos multimédia como simulações, streams de vídeo, produções de áudio e outras ferramentas de visualização. Os utilizadores podem ler, descarregar, copiar, distribuir, imprimir, pesquisar ou criar links para os textos completos dos artigos.",
-          "url": "https://digitalcommons.lmu.edu/cate/",
-          "imageUrl": {
-            "webp": "/images/revistas/cities-environment.webp",
-            "fallback": "/images/revistas/cities-environment.jpeg",
-            "thumbnail": {
-              "width": 400,
-              "height": 300
-            }
-          }
-        },
-        {
-          "id": "city-environment-interactions",
-          "title": "City and Environment Interactions",
-          "description": "Um fórum internacional e interdisciplinar de acesso aberto rápido focado nas interações entre cidades e pressões ambientais e climáticas.",
-          "url": "https://www.sciencedirect.com/journal/city-and-environment-interactions",
-          "imageUrl": {
-            "webp": "/images/revistas/city-environment-interactions.webp",
-            "fallback": "/images/revistas/city-environment-interactions.jpeg",
-            "thumbnail": {
-              "width": 400,
-              "height": 300
-            }
-          }
-        },
-        {
           "id": "creative-practices",
           "title": "European Journal of Creative Practices in Cities and Landscapes",
           "description": "Revista semestral, publicar artigos inovadores e originais sobre património cultural no ambiente construído como um conjunto de práticas criativas. O foco será a cidade europeia, com particular atenção às suas transformações dentro da metrópole global e aos seus fluxos de pessoas, capitais, bens e ideias.",
@@ -592,8 +578,8 @@
           "description": "Publica artigos sobre planeamento, política pública, geografia, economia e ciência ambiental. Um fórum para académicos e decisores políticos desenvolverem um diálogo para identificar e explorar muitos dos desafios que enfrentam as economias locais e regionais.",
           "url": "https://www.sciencedirect.com/journal/regional-science-policy-and-practice",
           "imageUrl": {
-            "webp": "/images/revistas/regional-science-policy.webp",
-            "fallback": "/images/revistas/regional-science-policy.jpeg",
+            "webp": "/images/revistas/regional-practice.webp",
+            "fallback": "/images/revistas/regional-practice.jpeg",
             "thumbnail": {
               "width": 400,
               "height": 300
@@ -604,7 +590,7 @@
           "id": "regional-studies",
           "title": "Regional Studies, Regional Science",
           "description": "Uma revista de acesso aberto sobre questões regionais e urbanas em geografia, economia, ciência regional, estudos ambientais, planeamento e governança.",
-          "url": "https://www.tandfonline.com/revistas/rsrs20",
+          "url": "https://www.tandfonline.com/journals/rsrs20",
           "imageUrl": {
             "webp": "/images/revistas/regional-studies.webp",
             "fallback": "/images/revistas/regional-studies.jpeg",
@@ -674,10 +660,10 @@
           "id": "architecture-mps",
           "title": "MPS - Architecture, Media, Politics, and Society",
           "description": "Architecture_MPS é uma revista internacional da UCL Press. Publica artigos de urbanistas, arquitetos, designers urbanos, sociólogos, artistas, economistas urbanos e advogados especializados em direitos fundiários, e visa abordar a relação destas disciplinas com o ambiente construído.",
-          "url": "https://journals.uclpress.co.uk/amps/",
+          "url": "https://journals.uclpress.co.uk/amps/issues/",
           "imageUrl": {
-            "webp": "/images/revistas/architecture-mps.webp",
-            "fallback": "/images/revistas/architecture-mps.jpeg",
+            "webp": "/images/revistas/archicteture-mps.webp",
+            "fallback": "/images/revistas/archicteture-mps.jpeg",
             "thumbnail": {
               "width": 400,
               "height": 300
@@ -704,22 +690,8 @@
           "description": "Publicação científica dedicada à Arte Pública como área de interseção entre arte, design e património e a construção participada do espaço público. Promovido pela AP2 (associação científica) através do projeto Urbancreativity.org.",
           "url": "https://journals.ap2.pt/index.php/CAP/index",
           "imageUrl": {
-            "webp": "/images/revistas/cadernos-arte-publica.webp",
-            "fallback": "/images/revistas/cadernos-arte-publica.jpeg",
-            "thumbnail": {
-              "width": 400,
-              "height": 300
-            }
-          }
-        },
-        {
-          "id": "city-territory-architecture",
-          "title": "City, Territory and Architecture",
-          "description": "A revista partilha conhecimentos e posições científicas teóricas e aplicadas com o objetivo primário de explorar relações conceituais e físicas entre cidade, território e arquitetura.",
-          "url": "https://cityterritoryarchitecture.springeropen.com/",
-          "imageUrl": {
-            "webp": "/images/revistas/city-territory-architecture.webp",
-            "fallback": "/images/revistas/city-territory-architecture.jpeg",
+            "webp": "/images/revistas/arte-publlca.webp",
+            "fallback": "/images/revistas/arte-publlca.jpeg",
             "thumbnail": {
               "width": 400,
               "height": 300
@@ -732,8 +704,8 @@
           "description": "Publica um resumo semestral de investigação recente e original sobre a documentação e conservação de edifícios, locais e bairros do Movimento Moderno.",
           "url": "https://docomomojournal.com/index.php/journal/about",
           "imageUrl": {
-            "webp": "/images/revistas/docomomo-journal.webp",
-            "fallback": "/images/revistas/docomomo-journal.jpeg",
+            "webp": "/images/revistas/docomomo.webp",
+            "fallback": "/images/revistas/docomomo.jpeg",
             "thumbnail": {
               "width": 400,
               "height": 300
@@ -746,8 +718,8 @@
           "description": "Revista de acesso aberto para investigação arquitetónica, publicada pelo Architectural Research Centers Consortium (ARCC) como um recurso para investigação em arquitetura e para apoiar o desenvolvimento contínuo da cultura de investigação na arquitetura.",
           "url": "https://www.arcc-journal.org/index.php/arccjournal",
           "imageUrl": {
-            "webp": "/images/revistas/enq-enquiry.webp",
-            "fallback": "/images/revistas/enq-enquiry.jpeg",
+            "webp": "/images/revistas/enq.webp",
+            "fallback": "/images/revistas/enq.jpeg",
             "thumbnail": {
               "width": 400,
               "height": 300

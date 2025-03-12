@@ -12,31 +12,21 @@ function ChapterList() {
 
   return (
     <div className="chapter-list">
-      <h2>Publicações de Acesso Aberto</h2>
-      <div className="introduction">
-        <p>Esta secção do roteiro reúne publicações científicas em gestão e reabilitação urbana, arquitetura e ordenamento do território, com foco em temas como planeamento urbano, mobilidade, sustentabilidade e cidades inteligentes.</p>
-        
-        <p>Os munícipes e decisores políticos podem encontrar aqui:</p>
-        
-        <ul>
-          <li>
-            <strong>Acesso a conhecimento validado cientificamente</strong> – Todas as publicações seguem processos rigorosos de revisão por pares, garantindo informação fiável e atual para fundamentar decisões técnicas e políticas.
-          </li>
-          <li>
-            <strong>Ligação entre teoria e prática</strong> – Investigação teórica como aplicações práticas, oferecendo soluções testadas para problemas urbanos complexos.
-          </li>
-          <li>
-            <strong>Perspetivas internacionais comparativas</strong> – O catálogo inclui publicações de diferentes contextos geográficos, humanos e culturais, permitindo aprender com experiências diversas e adaptar soluções a realidades locais.
-          </li>
-          <li>
-            <strong>Identificação de tendências emergentes</strong> – A consulta regular destas publicações permite antecipar desenvolvimentos futuros, tendências e inovações no campo do urbanismo e gestão urbana.
-          </li>
-          <li>
-            <strong>Exemplos de boas práticas</strong> – Casos de sucesso, com avaliaçção científica, proporcionando referências valiosas para intervenções urbanas.
-          </li>
-        </ul>
 
-        <p>Este roteiro de conhecimento é uma ferramenta prática para todos os que precisam fundamentar as suas decisões em evidências científicas sólidas, contribuindo para políticas de desenvolvimento local mais eficazes e sustentáveis.</p>
+      <div className="introduction">
+      <h2>Publicações</h2>
+        <p>Acesso aberto a publicações em urbanismo e reabilitação urbana, arquitetura e ordenamento do território:</p>
+
+        <p><strong>Conhecimento científico</strong> – Informação fiável e atual para fundamentar decisões técnicas e políticas.</p>
+
+        <p><strong>Aplicações práticas</strong> – Soluções testadas para problemas urbanos e territoriais complexos.</p>
+
+        <p><strong>Perspetivas internacionais</strong> – Contextos geográficos, humanos e culturais diversos.</p>
+
+        <p><strong>Tendências emergentes</strong> – Antecipar desenvolvimentos futuros e inovações.</p>
+
+        <p><strong>Boas práticas</strong> – Casos de sucesso, com avaliação científica.</p>
+
       </div>
 
       <div className="content-grid">
