@@ -6,9 +6,9 @@ function Home() {
   return (
     <div className="home">
       <div className="hero">
-        <h2>Urbanismo e ordenamento do território</h2>
+        <h2>Planeamento Urbano Informado</h2>
         <div className="introduction">
-          <p>Um guia para políticas de desenvolvimento local mais eficazes e sustentáveis.</p>
+          <p>Um guia para políticas de desenvolvimento local mais eficazes e sustentáveis</p>
         </div>
       </div>
       

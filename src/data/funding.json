@@ -3,20 +3,16 @@
     {
       "id": "dut",
       "title": "DUT Driving Urban Transitions",
-      "description": "Financiamento de projetos transnacionais de investigação e/ou inovação que abordem desafios urbanos.",
+      "description": "Financiamento de projetos transnacionais de investigação e inovação.",
       "url": "https://dutpartnership.eu/dut-call-2025/",
       "features": [
         {
-          "feature": "Economias Urbanas Circulares",
-          "featureURL": "https://dutpartnership.eu/dut-call-2025/circular-urban-economies/"
+          "feature": "Acesso a financiamento",
+          "featureURL": "https://dutpartnership.eu/funding-opportunities/"
         },
         {
-          "feature": "Mobilidade urbana",
-          "featureURL": "https://dutpartnership.eu/dut-call-2025/mobility/"
-        },
-        {
-          "feature": "Distritos de Energia Positiva",
-          "featureURL": "https://dutpartnership.eu/dut-call-2025/positive-energy-districts/"
+          "feature": "Biblioteca de recursos",
+          "featureURL": "https://dutpartnership.eu/media-library/"
         }
       ],
       "imageUrl": {
@@ -35,12 +31,16 @@
       "url": "https://cinea.ec.europa.eu/programmes/life_en",
       "features": [
         {
-          "feature": "Economia Circular e Qualidade de Vida",
-          "featureURL": "https://cinea.ec.europa.eu/programmes/life/circular-economy-and-quality-life_en"
+          "feature": "Oportunidades de financiamento",
+          "featureURL": "https://cinea.ec.europa.eu/funding-opportunities_en"
         },
         {
-          "feature": "Mitigação e Adaptação às Alterações Climáticas",
+          "feature": "Adaptação Climática",
           "featureURL": "https://cinea.ec.europa.eu/programmes/life/climate-change-mitigation-and-adaptation_en"
+        },
+        {
+          "feature": "Estudos e publicações",
+          "featureURL": "https://cinea.ec.europa.eu/publications_en"
         }
       ],
       "imageUrl": {
@@ -59,8 +59,12 @@
       "url": "https://ec.europa.eu/regional_policy/funding/erdf_en",
       "features": [
         {
-          "feature": "Programas operacionais nacionais/regionais",
-          "featureURL": "https://ec.europa.eu/regional_policy/funding/erdf/erdf-operational-programmes_en"
+          "feature": "Financiamento",
+          "featureURL": "https://ec.europa.eu/regional_policy/funding_en"
+        },
+        {
+          "feature": "Mapa de projetos",
+          "featureURL": "https://ec.europa.eu/regional_policy/information-sources/maps_en"
         }
       ],
       "imageUrl": {
@@ -73,34 +77,18 @@
       }
     },
     {
-      "id": "uia",
-      "title": "Ações Urbanas Inovadoras (UIA)/Iniciativa Urbana Europeia",
-      "description": "Teste de soluções inovadoras para desafios urbanos",
-      "url": "https://uia-initiative.eu/en/bridging-gap-exploring-innovative-financing-schemes-european-cities",
-      "features": [
-        {
-          "feature": "Financiamento direto para autoridades urbanas",
-          "featureURL": "https://uia-initiative.eu/en/about-us/what-urban-innovative-actions"
-        }
-      ],
-      "imageUrl": {
-        "webp": "/images/financiamento/uia.webp",
-        "fallback": "/images/financiamento/uia.jpeg",
-        "thumbnail": {
-          "width": 400,
-          "height": 300
-        }
-      }
-    },
-    {
       "id": "new-european-bauhaus",
       "title": "Nova Bauhaus Europeia",
-      "description": "Conectando sustentabilidade, estética e inclusão na transformação urbana",
-      "url": "https://new-european-bauhaus.europa.eu/funding/currently-open-and-forthcoming-calls_en",
+      "description": "Reimaginar a vida sustentável na Europa: Uma plataforma para experimentação e inovação estética nas cidades europeias, com acesso a financiamento da UE para projetos sustentáveis e inclusivos.",
+      "url": "https://new-european-bauhaus.europa.eu/index_en",
       "features": [
         {
-          "feature": "Convites ao financiamento em vários programas da UE",
+          "feature": "Financiamento",
           "featureURL": "https://new-european-bauhaus.europa.eu/get-involved/funding-opportunities_en"
+        },
+        {
+          "feature": "Recursos e instrumentos",
+          "featureURL": "https://new-european-bauhaus.europa.eu/tools-and-resources_en"
         }
       ],
       "imageUrl": {
@@ -115,20 +103,12 @@
     {
       "id": "interreg",
       "title": "INTERREG (Cooperação Territorial Europeia)",
-      "description": "Planeamento territorial e desenvolvimento urbano transfronteiriço",
-      "url": "https://interreg.eu/calls-for-projects/",
+      "description": "Planeamento territorial e desenvolvimento urbano transfronteiriço. Apoia projetos que enfrentem as desigualdades regionais e promovasm odesenvolvimento econômico, social e ambiental em toda a Europa.",
+      "url": "https://interreg.eu/",
       "features": [
         {
-          "feature": "Transfronteiriço (INTERREG A)",
-          "featureURL": "https://interreg.eu/strand-of-cooperation/interreg-a-cross-border-cooperation/"
-        },
-        {
-          "feature": "Transnacional (INTERREG B)",
-          "featureURL": "https://interreg.eu/strand-of-cooperation/interreg-b-transnational-cooperation/"
-        },
-        {
-          "feature": "Inter-regional (INTERREG C)",
-          "featureURL": "https://interreg.eu/strand-of-cooperation/interreg-c-interregional-cooperation/"
+          "feature": "Oportunidades de financiamento",
+          "featureURL": "https://interreg.eu/calls-for-projects/"
         }
       ],
       "imageUrl": {
@@ -143,12 +123,16 @@
     {
       "id": "investeu",
       "title": "InvestEU",
-      "description": "Infraestrutura urbana, renovações de eficiência energética",
+      "description": "Infraestrutura urbana, renovações de eficiência energética. Dá um impulso ao investimento, inovação e criação de empregos na Europa durante o período 2021-27. usando garantias do orçamento da UE.",
       "url": "https://investeu.europa.eu/",
       "features": [
         {
-          "feature": "Infraestrutura Sustentável",
-          "featureURL": "https://investeu.europa.eu/about-investeu/investment-areas_en"
+          "feature": "Portal de investimento",
+          "featureURL": "https://investeu.europa.eu/investeu-programme/investeu-portal_en"
+        },
+        {
+          "feature": "Mapa de investimentos",
+          "featureURL": "https://investeu.europa.eu/investeu-operations/investeu-operations-map_en"
         }
       ],
       "imageUrl": {
@@ -164,40 +148,20 @@
       "id": "jtf",
       "title": "Fundo para uma Transição Justa",
       "description": "Apoio às regiões mais afetadas pela transição para a neutralidade climática",
-      "url": "https://ec.europa.eu/regional_policy/funding/just-transition-fund_en",
+      "url": "https://ec.europa.eu/regional_policy/funding/just-transition-fund/just-transition-platform_en",
       "features": [
         {
-          "feature": "Reabilitação urbana em regiões pós-industriais",
-          "featureURL": "https://ec.europa.eu/regional_policy/funding/just-transition-fund/just-transition-platform_en"
+          "feature": "Mecanismos de financiamento",
+          "featureURL": "https://ec.europa.eu/regional_policy/whats-new/tenders-and-grants/calls-for-expressions-of-interest_en"
+        },
+        {
+          "feature": "Assitência técnica",
+          "featureURL": "https://ec.europa.eu/regional_policy/funding/just-transition-fund/just-transition-platform/supportground_en"
         }
       ],
       "imageUrl": {
         "webp": "/images/financiamento/jtf.webp",
         "fallback": "/images/financiamento/jtf.jpeg",
-        "thumbnail": {
-          "width": 400,
-          "height": 300
-        }
-      }
-    },
-    {
-      "id": "rrf",
-      "title": "Mecanismo de Recuperação e Resiliência",
-      "description": "Apoio à recuperação económica e à resiliência através de reformas e investimentos",
-      "url": "https://ec.europa.eu/economy_finance/recovery-and-resilience-scoreboard/",
-      "features": [
-        {
-          "feature": "Transição verde, transformação digital",
-          "featureURL": "https://ec.europa.eu/economy_finance/recovery-and-resilience-scoreboard/thematic_analysis.html"
-        },
-        {
-          "feature": "Planos nacionais de recuperação e resiliência",
-          "featureURL": "https://ec.europa.eu/economy_finance/recovery-and-resilience-scoreboard/national_recovery_and_resilience_plans.html"
-        }
-      ],
-      "imageUrl": {
-        "webp": "/images/financiamento/rrf.webp",
-        "fallback": "/images/financiamento/rrf.jpeg",
         "thumbnail": {
           "width": 400,
           "height": 300

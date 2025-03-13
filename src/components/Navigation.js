@@ -13,7 +13,7 @@ function Navigation() {
   return (
     <header>
       <div className="header">
-        <h1>Roteiro de Conhecimento</h1>
+        <h1>PolisPlan</h1>
         <button 
           className={`hamburger ${isMenuOpen ? 'active' : ''}`} 
           onClick={toggleMenu}

@@ -31,16 +31,16 @@
     {
       "id": "urbact",
       "title": "URBACT Knowledge Hub",
-      "description": "Platforma especializada em projetos de desenvolvimento urbano, com recuros e partilha de boas práticas.",
-      "url": "https://urbact.eu/knowledge-hub",
+      "description": "Plataforma especializada em projetos de desenvolvimento urbano, com recuros e partilha de boas práticas.",
+      "url": "https://urbact.eu",
       "features": [
         {
           "feature": "Exemplos de boas práticas",
           "featureURL": "https://urbact.eu/good-practices/home"
         },
         {
-          "feature": "Case studies",
-          "featureURL": "https://urbact.eu/case-studies"
+          "feature": "Base de dados de conhecimento",
+          "featureURL": "https://urbact.eu/knowledge-hub"
         },
         {
           "feature": "Ferramentas e metodologias",
@@ -64,15 +64,7 @@
       "features": [
         {
           "feature": "Descrições dos projetos",
-          "featureURL": "https://jpi-urbaneurope.eu/projects/"
-        },
-        {
-          "feature": "Soluções inovadoras",
-          "featureURL": "https://jpi-urbaneurope.eu/projects/innovation/"
-        },
-        {
-          "feature": "Resultados de implementação",
-          "featureURL": "https://jpi-urbaneurope.eu/projects/results/"
+          "featureURL": "https://jpi-urbaneurope.eu/projects/#"
         }
       ],
       "imageUrl": {
@@ -92,10 +84,10 @@
       "features": [
         {
           "feature": "Mapa interativo de projetos",
-          "featureURL": "https://keep.eu/maps/"
+          "featureURL": "https://keep.eu/countries-and-regions/"
         },
         {
-          "feature": "Indicadores de resultados",
+          "feature": "Pesquisa de projetos",
           "featureURL": "https://keep.eu/projects/"
         },
         {
@@ -119,16 +111,16 @@
       "url": "https://www.espon.eu/tools-maps/espon-tools",
       "features": [
         {
-          "feature": "Resultados de investigação",
+          "feature": "Mapas e Bases de Dados",
           "featureURL": "https://www.espon.eu/tools-maps"
         },
         {
-          "feature": "Indicadores territoriais",
+          "feature": "Relatórios e indicadores",
           "featureURL": "https://www.espon.eu/tools-maps/indicators"
         },
         {
-          "feature": "Recomendações de política",
-          "featureURL": "https://www.espon.eu/policy-briefs"
+          "feature": "Exemplos e casos de estudo",
+          "featureURL": "https://archive.espon.eu/topics-policy/case-studies"
         }
       ],
       "imageUrl": {
@@ -143,19 +135,20 @@
     {
       "id": "uia",
       "title": "Urban Innovative Actions",
-      "description": "Projetos de inovação urbana, com soluções avançadas de implementação.",
+      "description": "Projetos de inovação urbana.",
+      "url": "https://uia-initiative.eu/en",
       "features": [
         {
-          "feature": "Documentação de projetos",
-          "featureURL": "https://uia-initiative.eu/en/projects"
+          "feature": "Adaptasção climática",
+          "featureURL": "https://uia-initiative.eu/en/theme/climate-adaptation"
         },
         {
-          "feature": "Resultados de implementação",
-          "featureURL": "https://uia-initiative.eu/en/results"
+          "feature": "Mobilidade urbana",
+          "featureURL": "https://uia-initiative.eu/en/theme/urban-mobility"
         },
         {
-          "feature": "Transferência de conhecimento",
-          "featureURL": "https://uia-initiative.eu/en/knowledge-lab"
+          "feature": "Habitação",
+          "featureURL": "https://uia-initiative.eu/en/theme/housing"
         }
       ],
       "imageUrl": {
