@@ -50,7 +50,7 @@ function Navigation() {
               className={location.pathname === '/projects' ? 'active' : ''}
               onClick={() => setIsMenuOpen(false)}
             >
-              Projetos 
+              Projetos
             </Link>
           </li>
           <li className="nav-item">
@@ -60,15 +60,6 @@ function Navigation() {
               onClick={() => setIsMenuOpen(false)}
             >
               Financiamento
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link 
-              to="/municipio" 
-              className={location.pathname === '/municipio' ? 'active' : ''}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Serviços Municipais
             </Link>
           </li>
         </ul>
