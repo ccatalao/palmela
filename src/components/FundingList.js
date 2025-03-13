@@ -9,7 +9,7 @@ function FundingList() {
     <div className="chapter-list">
       <div className="introduction">
         <h2>Programas de Financiamento</h2>
-        <p>Fnanciamento europeu para projetos de ordenamento territorial, urbanismo e reabilitação urbana</p>
+        <p>Financiamento europeu para projetos de ordenamento territorial, urbanismo e reabilitação urbana</p>
 
         <p><strong>Fundos Estruturais</strong> – Mecanismos de financiamento para coesão territorial</p>
 

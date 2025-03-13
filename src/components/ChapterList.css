@@ -57,6 +57,7 @@ body {
   width: 100%;
   height: 225px;
   overflow: hidden;
+  text-decoration: none;
 }
 
 .content-image,
@@ -255,4 +256,123 @@ body {
 
 .introduction strong {
   color: #000;
+}
+
+/* About Component Styles */
+.about-footer {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.about-footer h3 {
+  color: #1d1d1f;
+  margin-bottom: 1rem;
+}
+
+.introduction .content-grid {
+  margin-top: 2rem;
+}
+
+.introduction .content-card {
+  background-color: #fff;
+  padding: 1.5rem;
+}
+
+.introduction .content-card h3 {
+  color: #1d1d1f;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.introduction .content-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.introduction .content-card li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.introduction .content-card li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #e44d26;
+}
+
+.introduction .content-card .visit-button {
+  margin-top: 1rem;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.title-container {
+  background: linear-gradient(
+    45deg,
+    #2563eb,
+    #3b82f6,
+    #1d4ed8,
+    #2563eb
+  );
+  background-size: 300% 300%;
+  animation: gradientAnimation 8s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 225px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.title-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.title-container:hover::before {
+  opacity: 1;
+}
+
+.card-title {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  line-height: 1.2;
+  padding: 0 20px;
+}
+
+.title-container:hover .card-title {
+  transform: scale(1.05);
 }

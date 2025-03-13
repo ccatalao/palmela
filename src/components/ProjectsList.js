@@ -12,10 +12,10 @@ function ProjectsList() {
 
       <div className="introduction">
       <h2>Redes de Projetos Europeus</h2>
-        <p><strong>Projetos europeus</strong> – resultados e boas práticas.</p>
-        <p><strong>Bases de dados de conhecimento</strong> – em ordenamento do territorio e desenvolvimento urbano.</p>
-        <p><strong>Redes de contactos</strong> – Partilha de experiências e soluções entre cidades europeias.</p>
-        <p><strong>Ferramentas e metodologias</strong> – Recursos práticos para projetos urbanos.</p>
+        <p><strong>Projetos europeus</strong> – resultados e boas práticas</p>
+        <p><strong>Bases de dados de conhecimento</strong> – em ordenamento do territorio e desenvolvimento urbano</p>
+        <p><strong>Redes de contactos</strong> – Partilha de experiências e soluções entre cidades europeias</p>
+        <p><strong>Ferramentas e metodologias</strong> – Recursos práticos para projetos urbanos</p>
       </div>
 
       <div className="content-grid">

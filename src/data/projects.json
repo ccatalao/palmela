@@ -31,11 +31,11 @@
     {
       "id": "urbact",
       "title": "URBACT Knowledge Hub",
-      "description": "Platform specifically focused on urban development projects, providing comprehensive resources and best practices for sustainable urban development",
+      "description": "Platforma especializada em projetos de desenvolvimento urbano, com recuros e partilha de boas práticas.",
       "url": "https://urbact.eu/knowledge-hub",
       "features": [
         {
-          "feature": "Good practice examples",
+          "feature": "Exemplos de boas práticas",
           "featureURL": "https://urbact.eu/good-practices/home"
         },
         {
@@ -43,7 +43,7 @@
           "featureURL": "https://urbact.eu/case-studies"
         },
         {
-          "feature": "Toolkits and methodologies",
+          "feature": "Ferramentas e metodologias",
           "featureURL": "https://urbact.eu/toolbox-home"
         }
       ],
@@ -59,19 +59,19 @@
     {
       "id": "jpi-urban-europe",
       "title": "JPI Urban Europe Project Database",
-      "description": "Database focused on sustainable urban development, showcasing innovative solutions and implementation results",
+      "description": "Base de dados focada em desenvolvimento urbano sustentável, com soluções inovadoras e resultados de implementação.",
       "url": "https://jpi-urbaneurope.eu/projects/",
       "features": [
         {
-          "feature": "Detailed project descriptions",
+          "feature": "Descrições dos projetos",
           "featureURL": "https://jpi-urbaneurope.eu/projects/"
         },
         {
-          "feature": "Innovation solutions",
+          "feature": "Soluções inovadoras",
           "featureURL": "https://jpi-urbaneurope.eu/projects/innovation/"
         },
         {
-          "feature": "Implementation results",
+          "feature": "Resultados de implementação",
           "featureURL": "https://jpi-urbaneurope.eu/projects/results/"
         }
       ],
@@ -87,19 +87,19 @@
     {
       "id": "keep-eu",
       "title": "KEEP.eu",
-      "description": "Comprehensive database of territorial cooperation projects with interactive features and detailed project information",
+      "description": "Base de dados de projetos de cooperação territorial.",
       "url": "https://keep.eu/",
       "features": [
         {
-          "feature": "Interactive map",
+          "feature": "Mapa interativo de projetos",
           "featureURL": "https://keep.eu/maps/"
         },
         {
-          "feature": "Project result indicators",
+          "feature": "Indicadores de resultados",
           "featureURL": "https://keep.eu/projects/"
         },
         {
-          "feature": "Partnership information",
+          "feature": "Informação de parcerias",
           "featureURL": "https://keep.eu/partners/"
         }
       ],
@@ -115,19 +115,19 @@
     {
       "id": "espon",
       "title": "ESPON Database",
-      "description": "Specialized database focusing on territorial development and spatial planning, providing research-based policy recommendations",
+      "description": "Base de dados especializada em ordenamento do território.",
       "url": "https://www.espon.eu/tools-maps/espon-tools",
       "features": [
         {
-          "feature": "Research results",
+          "feature": "Resultados de investigação",
           "featureURL": "https://www.espon.eu/tools-maps"
         },
         {
-          "feature": "Territorial indicators",
+          "feature": "Indicadores territoriais",
           "featureURL": "https://www.espon.eu/tools-maps/indicators"
         },
         {
-          "feature": "Policy recommendations",
+          "feature": "Recomendações de política",
           "featureURL": "https://www.espon.eu/policy-briefs"
         }
       ],
@@ -143,19 +143,18 @@
     {
       "id": "uia",
       "title": "Urban Innovative Actions",
-      "description": "Database of innovative urban projects showcasing cutting-edge solutions and implementation strategies",
-      "url": "https://uia-initiative.eu/en/uia-cities",
+      "description": "Projetos de inovação urbana, com soluções avançadas de implementação.",
       "features": [
         {
-          "feature": "Detailed project documentation",
+          "feature": "Documentação de projetos",
           "featureURL": "https://uia-initiative.eu/en/projects"
         },
         {
-          "feature": "Implementation results",
+          "feature": "Resultados de implementação",
           "featureURL": "https://uia-initiative.eu/en/results"
         },
         {
-          "feature": "Knowledge transfer materials",
+          "feature": "Transferência de conhecimento",
           "featureURL": "https://uia-initiative.eu/en/knowledge-lab"
         }
       ],

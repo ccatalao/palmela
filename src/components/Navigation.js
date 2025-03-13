@@ -32,7 +32,16 @@ function Navigation() {
               className={location.pathname === '/' ? 'active' : ''}
               onClick={() => setIsMenuOpen(false)}
             >
-              Apresentação
+              Início
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link 
+              to="/about" 
+              className={location.pathname === '/about' ? 'active' : ''}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Sobre
             </Link>
           </li>
           <li className="nav-item">

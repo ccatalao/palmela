@@ -7,77 +7,50 @@ function MunicipioList() {
 
   return (
     <div className="chapter-list">
-      <h2>Serviços Municipais</h2>
       <div className="introduction">
-        <p>Esta secção do roteiro apresenta os principais serviços e recursos municipais em matéria de urbanismo, ordenamento do território e habitação no concelho de Palmela.</p>
-        
-        <p>Os munícipes podem encontrar aqui:</p>
-        
-        <ul>
-          <li>
-            <strong>Reabilitação Urbana</strong> – Programas e incentivos para revitalização de centros urbanos e áreas degradadas.
-          </li>
-          <li>
-            <strong>Planeamento Territorial</strong> – Documentos e legislação sobre ordenamento do território.
-          </li>
-          <li>
-            <strong>Habitação</strong> – Políticas e programas municipais de acesso à habitação.
-          </li>
-          <li>
-            <strong>Centro Histórico</strong> – Informações sobre património, comércio e serviços no centro histórico.
-          </li>
-        </ul>
+        <h2>Serviços Municipais</h2>
+        <p>Aceda a informação, serviços e recursos municipais no sítio da Câmara Municipal de Palmela</p>
 
-        <p>Este catálogo facilita o acesso aos serviços municipais e recursos disponíveis para cidadãos e profissionais interessados no desenvolvimento urbano sustentável do concelho.</p>
+            <p><strong>Reabilitação Urbana</strong> – Programas e incentivos para revitalização de centros urbanos</p>
+
+            <p><strong>Planeamento Territorial</strong> – Documentos e legislação sobre ordenamento do território</p>
+
+            <p><strong>Habitação</strong> – Políticas e programas municipais de acesso à habitação</p>
+
+            <p><strong>Centro Histórico</strong> – Informações sobre património, comércio e serviços no centro histórico</p>
       </div>
 
-      <div className="chapters-grid">
-        {municipio.map(service => (
-          <a 
-            href={service.url}
-            key={service.id}
-            className="chapter-card"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="chapter-image">
-              <picture>
-                <source 
-                  srcSet={service.imageUrl?.webp}
-                  type="image/webp"
-                />
-                <img 
-                  src={service.imageUrl?.fallback}
-                  alt={service.title}
-                  width={service.imageUrl?.thumbnail?.width || 400}
-                  height={service.imageUrl?.thumbnail?.height || 300}
-                  loading="lazy"
-                />
-              </picture>
-            </div>
-            <div className="chapter-content">
+      <div className="content-grid">
+        {municipio.map((service) => (
+          <div key={service.id} className="content-card">
+            <a 
+              href={service.url} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="content-image-link"
+            >
+              <div className="content-image title-container">
+                <h2 className="card-title">{service.title}</h2>
+              </div>
+            </a>
+            <div className="content-info">
               <h3>{service.title}</h3>
               <p>{service.description}</p>
-              <div className="content-info">
-                <h4>Serviços disponíveis:</h4>
-                <ul>
-                  {service.features.map((feature, index) => (
-                    <li key={index}>
-                      <a 
-                        href={feature.featureURL}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="visit-button"
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        {feature.feature}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+              <div className="feature-buttons">
+                {service.features.map((feature, index) => (
+                  <a 
+                    key={index}
+                    href={feature.featureURL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="visit-button"
+                  >
+                    {feature.feature}
+                  </a>
+                ))}
               </div>
             </div>
-          </a>
+          </div>
         ))}
       </div>
     </div>

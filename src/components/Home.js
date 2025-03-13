@@ -86,11 +86,11 @@ function Home() {
           <div className="feature-image">
             <picture>
               <source 
-                srcSet={process.env.PUBLIC_URL + '/images/home/publications.webp'}
+                srcSet={process.env.PUBLIC_URL + '/images/home/publicacoes.webp'}
                 type="image/webp"
               />
               <img 
-                src={process.env.PUBLIC_URL + '/images/home/publications.jpg'}
+                src={process.env.PUBLIC_URL + '/images/home/publicacoes.jpg'}
                 alt="Publicações de acesso aberto"
                 width={400}
                 height={300}
