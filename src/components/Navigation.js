@@ -24,7 +24,7 @@ function Navigation() {
   return (
     <header className={`sticky-header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header">
-        <h1>PolisPlan</h1>
+        <h1>Polis</h1>
         <button 
           className={`hamburger ${isMenuOpen ? 'active' : ''}`} 
           onClick={toggleMenu}

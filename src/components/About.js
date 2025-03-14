@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="chapter-list">
       <div className="introduction">
-        <h2>Roteiro de Conhecimento</h2>
+        <h2>Polis - Planeamento Urbano Informado</h2>
         <p>
           Roteiro de Conhecimento é uma plataforma integrada de recursos essenciais 
           para o desenvolvimento urbano sustentável.
