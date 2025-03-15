@@ -299,6 +299,35 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Summary.txt",
+			"settings":
+			{
+				"buffer_size": 1636,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "Summary of the Polis Mobile App Structure"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAZAYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "/Users/carlosalves/Dev/polis/src/components/migration-example/WebComponent.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -332,7 +361,17 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/carlosalves/Dev/polis"
+		"/Users/carlosalves/Dev/polis",
+		"/Users/carlosalves/Dev/polis/assets",
+		"/Users/carlosalves/Dev/polis/assets/images",
+		"/Users/carlosalves/Dev/polis/src",
+		"/Users/carlosalves/Dev/polis/src/components",
+		"/Users/carlosalves/Dev/polis/src/components/common",
+		"/Users/carlosalves/Dev/polis/src/components/migration-example",
+		"/Users/carlosalves/Dev/polis/src/components/projects",
+		"/Users/carlosalves/Dev/polis/src/data",
+		"/Users/carlosalves/Dev/polis/src/navigation",
+		"/Users/carlosalves/Dev/polis/src/styles"
 	],
 	"file_history":
 	[
@@ -508,6 +547,66 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Summary.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1636,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1636,
+								1636
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Summary of the Polis Mobile App Structure",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/carlosalves/Dev/polis/src/components/migration-example/WebComponent.js",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
